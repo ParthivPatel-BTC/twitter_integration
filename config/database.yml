@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: twitter
+  host: localhost
+  pool: 5
+  username: postgres
+  password: postgres
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: twitter
+  host: localhost
+  pool: 5
+  username: postgres
+  password: postgres
